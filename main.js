@@ -1,8 +1,8 @@
 import './style.css'
-import { divApp, header, refreshGallery } from './public/components/header/Header';
-import { inputWord } from './public/components/Input-Image/Input';
-import { footer } from './public/components/Footer/Footer';
-import { section, showGallery } from './public/components/Card/Card';
+import { divApp, header, refreshGallery } from './components/header/Header';
+import { inputWord } from './components/Input-Image/Input';
+import { footer } from './components/Footer/Footer';
+import { section, showGallery } from './components/Card/Card';
 
 
 const initializeApp = async () => {
