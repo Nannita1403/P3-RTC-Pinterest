@@ -4,6 +4,7 @@ import { inputWord } from './public/components/Input-Image/Input';
 import { footer } from './public/components/Footer/Footer';
 import { section, showGallery } from './public/components/Card/Card';
 
+
 const initializeApp = async () => {
   // 1) Lleno .gallery con imágenes
   await showGallery();
